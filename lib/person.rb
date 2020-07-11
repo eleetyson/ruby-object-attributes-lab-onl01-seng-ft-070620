@@ -11,7 +11,7 @@ class Person
     @job
   end
   
-  def job=(occupation)
-    @job = occupation
+  def job=(given_job)
+    @job = given_job
   end
 end
