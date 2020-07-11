@@ -1,9 +1,9 @@
 class Person
   def job
-    
+    @job
   end
   
-  def job=()
-    
+  def job=(occupation)
+    @job = occupation
   end
 end
